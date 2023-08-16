@@ -1,32 +1,6 @@
-# **Controle de projetos - KenzieVelopers**
+# **Controle de projetos **
 
-## **Introdução**
-
-Uma startup de tecnologia e desenvolvimento web decidiu criar uma API Rest para gerenciar seus desenvolvedores e projetos. Como você é um dos novos integrantes da equipe, você foi o escolhido para desenvolver essa aplicação.
-
-Através dessa API deve ser possível realizar o registro do desenvolvedor, associar informações extras ao mesmo e registrar os projetos de cada desenvolvedor.
-
-A seguir estarão todas as regras de negócio definidas pela startup para esse projeto. Lembre-se de seguir à risca todas as regras impostas.
-
-Vamos lá?!
-
-#
-
-## **Regras da entrega**
-
-A entrega deve seguir as seguintes regras:
-
-- O código deve estar em TypeScript, caso não esteja a **entrega será zerada**;
-- Deverá ser utilizado um banco de dados **_postgres_** para a elaboração da API;
-- O nome da tabela, das colunas e demais especificações, devem ser seguidas **à risca**. Caso tenha divergência, **será descontado nota**;
-- **Tenha muita atenção sobre o nome das chaves nos objetos de entrada e saída de cada requisição**;
-- **Na raiz do diretório** deve-se conter uma pasta nomeada **sql**, com dois arquivos:
-
-  - **createTables.sql**: contendo as queries de criação e inserção das tabelas;
-  - **diagram.png/jpg**: um arquivo **_.png_** ou **_.jpg_** contendo o diagrama da tabela;
-    - caso o arquivo **_createTables.sql_** não exista, **a entrega será zerada**.
-
-**Essa entrega possui testes automatizados**;
+**Esse projeto possui testes automatizados**;
 
 - É necessário executar um **npm install** assim que fizer o clone do repositório para que as depedências dos testes sejam instaladas.
 - É necessário criar um banco de dados separado para a execução dos testes.
